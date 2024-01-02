@@ -1,0 +1,29 @@
+:root {
+  --clr-primary: #ffffff;
+  --clr-secondary: #a0b49c;
+  --clr-background: #141a17;
+
+  --ff-primary: "Neue Montreal Bo", sans-serif;
+  --ff-secondary: "Luna Bar", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--ff-primary);
+}
+
+.container {
+  margin: 0 4rem;
+}
