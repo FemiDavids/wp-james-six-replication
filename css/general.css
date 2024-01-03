@@ -1,10 +1,16 @@
+@import url("/css/style.css");
+
 :root {
-  --clr-primary: #ffffff;
-  --clr-secondary: #a0b49c;
-  --clr-background: #141a17;
+  --clr-primary: hsl(0, 0%, 100%);
+  --clr-secondary: hsl(110, 14%, 66%);
+  --clr-background: hsl(150, 13%, 9%);
 
   --ff-primary: "Neue Montreal Bo", sans-serif;
   --ff-secondary: "Luna Bar", cursive;
+}
+
+:root::-webkit-scrollbar {
+  display: none;
 }
 
 * {
@@ -22,8 +28,38 @@ html {
 body {
   font-size: 1.6rem;
   font-family: var(--ff-primary);
+  background-color: var(--clr-background);
+  overflow-y: none; /* hide vertical */
+  overflow-x: hidden; /* hide horizontal */
 }
 
 .container {
-  margin: 0 4rem;
+  max-width: 123rem;
+  margin: 0 auto;
+  /* padding: 0 1.6rem; */
 }
+
+.flex-rw {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .centered-content {
+  justify-content: space-between;
+  row-gap: 8rem;
+} */
