@@ -80,26 +80,26 @@
 /******************************************/
 /* ABOUT SECTION                          */
 /******************************************/
-
 .about__content-bio {
   max-width: 108rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 6.4rem;
 }
 
 /* .about__content-bio  */
-
-.title {
-  color: white;
-  font-size: 3.2rem;
-  font-weight: 400;
-  margin-bottom: 2rem;
-}
 
 .about__content-bio p {
   color: var(--clr-secondary);
   font-size: 1.8rem;
   line-height: 1.4;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.section-about .flex-rw {
+  justify-content: space-between;
+}
+
+.about__content-stack {
+  margin-bottom: 6.4rem;
 }
 
 .about__content-stack p {
@@ -107,5 +107,22 @@
 
   color: var(--clr-secondary);
   font-size: 1.6rem;
-  font-weight: 500;
+  line-height: 1.4;
+  font-weight: medium;
+
+  max-width: 25rem;
+}
+
+/******************************************/
+/* WORKS SECTION                          */
+/******************************************/
+
+.works__gallery-item {
+  max-width: 24rem;
+  max-height: 24rem;
+}
+
+.thumbnail {
+  width: 100%;
+  object-fit: contain;
 }

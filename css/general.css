@@ -49,6 +49,17 @@ body {
   flex-direction: column;
 }
 
+.grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10.4rem;
+}
+
+.grid-3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 ul {
   list-style: none;
 }
@@ -63,3 +74,10 @@ a:visited {
   justify-content: space-between;
   row-gap: 8rem;
 } */
+
+.title {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
