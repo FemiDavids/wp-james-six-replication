@@ -116,9 +116,20 @@
 /******************************************/
 /* WORKS SECTION                          */
 /******************************************/
-
+.section-works {
+  padding-bottom: 7.2rem;
+}
 .section-works .container {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
   margin-bottom: 6.4rem;
+}
+
+.section-works a {
+  text-align: center;
 }
 
 .works__gallery-item {

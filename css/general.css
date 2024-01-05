@@ -68,6 +68,7 @@ a:link,
 a:visited {
   text-decoration: none;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 /* .centered-content {
